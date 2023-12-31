@@ -32,5 +32,22 @@ public class Main {
         }
         System.out.println();
 
+        //Task 3
+
+        for (int i = array.length - 1; i >=0; i--) {
+            System.out.print(array[i] + ", ");
+        }
+        System.out.println();
+
+        for (int i = array2.length - 1; i >= 0; i--) {
+            System.out.print(array2[i] + ", ");
+        }
+        System.out.println();
+
+        for (int i = array3.length - 1; i >= 0; i--) {
+            System.out.print(array3[i] + ", ");
+        }
+        System.out.println();
+
     }
 }
